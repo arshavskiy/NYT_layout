@@ -1,0 +1,193 @@
+                    body {
+                    margin: 0px auto;
+                    max-width: 970px;
+                }
+                
+                header .h_middle {
+                    /* width: 1000px; */
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                }
+                
+                header .h_middle img {
+                    padding-top: 15px;
+                }
+                
+                .nyt_logo_bottom h6 {
+                    display: inline;
+                }
+                
+                .nyt_logo_bottom img {
+                    padding-top: 25px;
+                }
+                
+                .logo_text {
+                    text-align: center;
+                }
+                
+                nav ul {
+                    list-style: none;
+                    margin-top: 5px;
+                    padding: 10px 65px 10px 65px;
+                    margin: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 2px solid black;
+                    border-bottom: 1px solid gray;
+                }
+                
+                nav {
+                    border-color: rgba(0, 0, 255, 0.25);
+                }
+                
+                nav li {
+                    font-size: 0.9em;
+                }
+                
+                nav li a {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                nav li a:hover {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                nav li a:visited {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                #promo {
+                    display: block;
+                    background: url('assets/promo/Air_970x250_4.jpg') center center no-repeat;
+                    width: 970px;
+                    height: 250px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid gray;
+                }
+                
+                img.photo {
+                    width: 320px;
+                    height: 210px;
+                }
+                
+                .text_box {
+                    height: 825px;
+                    /*display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;*/
+                    display: inline-block;
+                    width: 575px;
+                    padding-right: 25px;
+                }
+                
+                .text_div {
+                    width: 175px;
+                    padding: 0px 5px;
+                    float: left;
+                }
+                
+                .text_div_promo {
+                    background: url('assets/promo/Air_970x250_4.jpg') center center no-repeat;
+                    width: 368px;
+                    height: 270px;
+                }
+                
+                .text_div h2,
+                .text_div_small h2 {
+                    font-size: 1.625rem;
+                    line-height: 0.95em;
+                    font-weight: 700;
+                    font-style: italic;
+                    font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+                    letter-spacing: .01em;
+                    word-spacing: -0.1em;
+                }
+                
+                .text_box h2,
+                h6 {
+                    margin-top: .5em;
+                    margin-bottom: .5em;
+                }
+                
+                .text_div h6,
+                .text_div_small h6,
+                .text_div p,
+                li,
+                .text_div_small p,
+                li {
+                    font-size: 0.8125rem;
+                    line-height: 1.125rem;
+                    font-weight: 400;
+                    font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+                }
+                
+                a {
+                    font-family: "nyt-franklin", arial, helvetica, sans-serif;
+                }
+                
+                a:focus,
+                a:hover,
+                a:active {
+                    background: lightgray;
+                }
+                
+                .text_box_right {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    width: 390px;
+                }
+                
+                .text_div_right {
+                    padding-right: 5px;
+                }
+                /* .text_div_right:nth-last-child(-n+3) h5 {
+ 	padding-top: 10px;
+ } */
+                
+                .text_div_right h5 {
+                    font-size: 0.875rem;
+                    line-height: 1rem;
+                    font-weight: 700;
+                    font-style: normal;
+                    font-family: "nyt-cheltenham-sh", georgia, "times new roman", times, serif;
+                    margin-bottom: 2px;
+                }
+                
+                .text_div_right h6,
+                p {
+                    font-size: 0.8125rem;
+                    /* line-height: 1.125rem; */
+                    font-weight: 400;
+                    font-style: normal;
+                    font-family: georgia, "times new roman", times, serif;
+                    margin-bottom: 0;
+                }
+                
+                section {
+                    display: flex;
+                }
+                
+                img.photo {
+                    opacity: 1;
+                    filter: alpha(opacity=100);
+                    /* For IE8 and earlier */
+                }
+                
+                img.photo:hover {
+                    opacity: 0.5;
+                    filter: alpha(opacity=50);
+                    /* For IE8 and earlier */
+                }
+                /*
+.text_box P::first-line {
+    text-shadow: 1px 1px 1px lightblue;
+}*/
+                
+                .text_div_right:last-of-type {
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid rgba(15, 15, 15, 0.15);
